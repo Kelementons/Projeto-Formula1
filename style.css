@@ -1,0 +1,153 @@
+@charset "UTF-8"
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+:root {
+    --cor1: #4DE6F1;
+    --cor2: #ced1e9;
+    --cor3: #FA3727;
+    --cor4: #2F1CFA;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Rubik Mono One', monospace;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ebaba5;
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(61, 60, 60), #271616);
+    min-height: 20px;
+    padding-top: 40px;
+}
+
+nav {
+    background-color: #271616;
+    padding: 10px;
+}
+
+nav > a {
+    color: var(--cor3);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 1.0s;
+}
+
+nav > a:hover {
+    background-color: var(--cor1);
+    color: var(--cor4);
+}
+
+main {
+    min-width: 300px;
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 5px 10px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main > article > h1 {
+    font-family: var(--fonte-destaque);
+    font-size: 2em;
+    margin: 20px 0px 50px 0px;
+    text-align: center;
+}
+
+main > article > h2 {
+    font-family: var(--fonte-destaque);
+    text-indent: 8px;
+    margin-top: 50px;
+    font-size: 2em;
+    
+}
+
+main > article > h3.hu {
+    text-align: center;
+    margin-top: 70px;
+    font-family: var(--fonte-destaque);
+    font-size: 1.7em;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+main p.ue {
+    margin-top: 100px;
+}
+
+main p.koe {
+    margin-top: 100px;
+}
+
+main strong {
+    font-weight: bold;
+}
+
+main img {
+    width: 100%;
+    
+}
+
+aside.um {
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 100px;
+    font-size: 1.2em;
+}
+
+aside.dois {
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+aside > h3.oi {
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside >h3.ola {
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > ul {
+    list-style-position: inside;
+}
+
+aside > ul > li {
+    padding: 10px;
+}
+
+footer {
+    background-color: #271616;
+    color: white;
+    text-align: center;
+    padding: 7px;
+}
