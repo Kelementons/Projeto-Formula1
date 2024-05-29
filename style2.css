@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(128, 128, 226);
+    min-height: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+header > h1 {
+    text-align: center;
+    color: white;
+}
+
+main a {
+    padding: 10px;
+}
+
+main a > h2{
+    padding-left: 10px;
+}
+
+
+
+
